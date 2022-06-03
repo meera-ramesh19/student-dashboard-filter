@@ -1,0 +1,91 @@
+.moreLess {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  gap: 0.1rem;
+  border-bottom: 1px solid green;
+}
+.codewars {
+  grid-column: 1;
+  padding: 0.5rem 2rem 0.5rem 0;
+}
+.scores {
+  grid-column: 2;
+  padding: 0.5rem 2rem 0.5rem 0;
+}
+.certify {
+  grid-column: 3;
+  padding: 0.5rem 2rem 0.5rem 0;
+}
+.certify .check {
+  color: green;
+}
+.certify .xmark {
+  color: red;
+}
+
+.comment,
+.comments-section {
+  display: block;
+}
+
+.comments-section {
+  display: block;
+  border: 1px solid black;
+}
+.comment > div {
+  padding: 1rem;
+}
+label {
+  padding-right: 2rem;
+}
+input[type='submit'] {
+  margin: 0 1rem;
+  padding: 0.5rem;
+  background: green;
+  color: white;
+}
+input[type='submit']:hover {
+  background: rgb(3, 155, 125);
+}
+
+button {
+  font-weight: bold;
+  font-size: 15px;
+  transition: all 500ms;
+}
+
+button:hover {
+  font-size: 25px;
+  font-size-adjust: 10px;
+  background-color: rgb(37, 198, 193);
+}
+.comments-list {
+  padding: 0.5rem 2rem 0.5rem 0;
+}
+
+.codewars p,
+.scores p,
+.certify p {
+  padding: 0.3rem 0;
+}
+
+@media (max-width: 800px) {
+  input[type='submit'] {
+    margin: 1rem;
+  }
+  .comments-list {
+    padding: 0.5rem 0;
+  }
+
+  button {
+    font-weight: bold;
+    font-size: 5px;
+    transition: all 500ms;
+  }
+
+  button:hover {
+    font-size: 8px;
+    font-size-adjust: 5px;
+    background-color: rgb(37, 198, 193);
+  }
+}

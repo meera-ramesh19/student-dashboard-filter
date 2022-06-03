@@ -1,0 +1,12 @@
+.sideBar {
+  margin: 0 5rem 0 0;
+}
+.cohortName {
+  padding: 1rem 0;
+}
+.sideBar h2 {
+  padding: 1rem 0;
+}
+.uniqueCohort:hover {
+  background: rgb(59, 211, 213);
+}

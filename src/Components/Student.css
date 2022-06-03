@@ -1,0 +1,36 @@
+.student {
+  padding: 1rem 0;
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  /* display: flex; */
+  /* flex: 1; */
+}
+.student img {
+  grid-column: 1;
+}
+.studentDetails {
+  grid-column: 2;
+}
+.graduated {
+  grid-column: 3;
+}
+.student img,
+.student h4 {
+  padding: 0 0.5rem;
+}
+.student button {
+  margin: 1rem;
+}
+/* .graduated {
+  padding: 0 2rem;
+} */
+.studentDetails,
+.graduated {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem 0;
+  font-weight: 500;
+}
+.studentDetails h4 {
+  padding: 0.5rem 0;
+}
